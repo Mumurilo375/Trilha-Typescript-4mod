@@ -1,7 +1,7 @@
 abstract class Funcionario {
     constructor(private nome: string, private salario: number) {}
 
-    protected getSalario(): number {
+    getSalario(): number {
         return this.salario;
     }
 
