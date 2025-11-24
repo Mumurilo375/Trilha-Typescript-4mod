@@ -25,7 +25,6 @@ class ContaBancaria {
         this.saldo -= valor;
         console.log(`Saque de R$${valor} realizado. Saldo restante: R$${this.saldo}`);
     }
-    // Getter
     consultarSaldo() {
         return this.saldo;
     }
