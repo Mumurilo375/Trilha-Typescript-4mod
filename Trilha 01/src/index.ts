@@ -1,4 +1,3 @@
-// obs: o parametro tem que ser tipado
 function greet(name: string): string {
   return `Hello, ${name}!`;
 }
